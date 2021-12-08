@@ -1,0 +1,213 @@
+body {
+    font-family: 'Quicksand', sans-serif;}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+    list-style: none;
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+nav .nav-right-section a {
+    margin-right: 15px;
+    color: rgba(0,0,0,0.87);
+}
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+nav .nav-right-section .menu-icon {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+nav .nav-right-section .menu-icon:hover {
+    background-color: rgb(235, 232, 232);
+}
+nav .nav-right-section .menu-icon img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+    margin-left: 15px;
+}
+nav .nav-right-section .foto-perfil {
+    width: 40px;
+    height: 40px;
+}
+nav .nav-right-section .foto-perfil:hover {
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(235, 232, 232);
+}
+nav .nav-right-section .foto-perfil img {
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+main {
+    margin-top: 105px;
+    text-align: center;
+}
+main .main-logo  {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+main .main-logo img {
+    width: 270px;
+    margin-top: 0;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    transition: 200ms all;
+}
+main .main-input .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+main .main-buttoms {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttoms div {
+    display: inline-block;
+}
+main .main-buttoms button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+main .main-buttoms button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+}
+footer .footer-left {
+    justify-content: left;
+}
+footer .footer-right{
+    justify-content: right;
+}
+footer ul li a {
+    margin: 15px;
+    color: #5f6368;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+.pais {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 50px;
+    margin-top: 87px;
+    display: flex;
+    font-size: 1.4rem;
+}
+.pais div {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.ofrecido-google {
+    width: 100%;
+    height: 5px;
+    margin-top: 36px;
+}
+.ofrecido-google div  {
+    color: #3c4043;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.ofrecido-google div a:hover {
+    text-decoration: underline;
+}
